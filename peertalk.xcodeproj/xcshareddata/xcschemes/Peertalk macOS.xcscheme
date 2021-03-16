@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AB1C5C73257A900600F41941"
-               BuildableName = "Peertalk iOS Swift Example.app"
-               BlueprintName = "Peertalk iOS Swift Example"
+               BlueprintIdentifier = "AB6C9959257BB68D00D5624E"
+               BuildableName = "Peertalk.framework"
+               BlueprintName = "Peertalk macOS"
                ReferencedContainer = "container:peertalk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6A88FA43150D613800FC3647"
+               BuildableName = "peertalkTests.xctest"
+               BlueprintName = "peertalkTests"
+               ReferencedContainer = "container:peertalk.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -40,16 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB1C5C73257A900600F41941"
-            BuildableName = "Peertalk iOS Swift Example.app"
-            BlueprintName = "Peertalk iOS Swift Example"
-            ReferencedContainer = "container:peertalk.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -57,16 +57,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB1C5C73257A900600F41941"
-            BuildableName = "Peertalk iOS Swift Example.app"
-            BlueprintName = "Peertalk iOS Swift Example"
+            BlueprintIdentifier = "AB6C9959257BB68D00D5624E"
+            BuildableName = "Peertalk.framework"
+            BlueprintName = "Peertalk macOS"
             ReferencedContainer = "container:peertalk.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

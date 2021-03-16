@@ -1,7 +1,6 @@
 #import <XCTest/XCTest.h>
 #include <dispatch/dispatch.h>
-#import "PTProtocol.h"
-#import "PTPrivate.h"
+@import Peertalk;
 
 @interface PTProtocolTests : XCTestCase {
   dispatch_fd_t socket_[2];

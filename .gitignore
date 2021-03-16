@@ -13,3 +13,7 @@
 *.diff
 
 xcuserdata
+
+# SPM
+.build/
+.swiftpm/
